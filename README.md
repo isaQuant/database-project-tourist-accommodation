@@ -1,4 +1,11 @@
-# tourist_accommodation_project
+# tourist accommodation project
+
+Content
+1. project description
+2. repository content
+3. how to run the project
+
+## 1. project description
 
 This project represents a database application for a fictitious regional booking platform. 
 
@@ -12,3 +19,12 @@ For each category the prices must be recorded. For hotels and guesthouses, the p
 A tourist accommodation has a list of its guests' data. The guests' data contains a guests' first name, last name, date of birth, adress, phone and email. 
 A guest can book a stay in an entity of a tourist accommodation. Every booking must contain an arrival date and a departure date, the booker and possible fellow travellers.
 Only one booking per entity and night is allowed. 
+
+## 2. repository content
+
+This repository contains:
+- database schema (sql) for creating the database
+- UML diagram 
+- code implemented in java for running the application 
+
+## 3. how to run the project
