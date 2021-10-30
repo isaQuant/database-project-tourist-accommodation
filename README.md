@@ -1,4 +1,4 @@
-# tourist accommodation project
+# database project - tourist accommodation
 
 Content
 1. project description
