@@ -121,13 +121,69 @@ public class touristAccommodation {
     }
 
 
+    public String getTouristAccommodationName() {
+        return touristAccommodationName;
+    }
 
+    public void setTouristAccommodationName(String touristAccommodationName) {
+        this.touristAccommodationName = touristAccommodationName;
+    }
 
+    public String getPhone() {
+        return phone;
+    }
 
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
 
+    public String getEmail() {
+        return email;
+    }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
+    public String getFax() {
+        return fax;
+    }
 
+    public void setFax(String fax) {
+        this.fax = fax;
+    }
+
+    public String getWebsite() {
+        return website;
+    }
+
+    public void setWebsite(String website) {
+        this.website = website;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public accommodationTypeEnum getAccommodationType() {
+        return accommodationType;
+    }
+
+    public void setAccommodationType(accommodationTypeEnum accommodationType) {
+        this.accommodationType = accommodationType;
+    }
+
+    public numberOfStarsEnum getNumberOfStars() {
+        return numberOfStars;
+    }
+
+    public void setNumberOfStars(numberOfStarsEnum numberOfStars) {
+        this.numberOfStars = numberOfStars;
+    }
 
 
     /************************ Start of contains-methods *******************************/
