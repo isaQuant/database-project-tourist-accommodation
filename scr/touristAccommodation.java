@@ -95,6 +95,32 @@ public class touristAccommodation {
         }
     }
 
+    /**
+     * Fetches the room ID of a specifiy entity of a tourist accommodation
+     * @param entityName
+     * @param categoryName
+     * @param touristAccommodationID
+     * @return the room ID
+     */
+
+    public int fetchRoomID(String entityName, String categoryName, int touristAccommodationID) {
+        int roomID = -1;
+        try {
+            this.getEntityIDStmt.setString(1, entityName);
+            this.getEntityIDStmt.setString(2, categoryName);
+            this.getEntityIDStmt.setInt(3, touristAccommodationID);
+
+            ResultSet rs = getEntityIDStmt.executeQuery();
+            rs.next();
+            roomID = rs.getInt(1);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return roomID;
+    }
+
+
 
 
 
